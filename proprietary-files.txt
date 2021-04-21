@@ -833,10 +833,7 @@ vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so
 
 # Keystore
 vendor/lib/hw/keystore.mt6785.so
-vendor/lib/libkeystore-wifi-hidl.so
 vendor/lib64/hw/keystore.mt6785.so
-vendor/lib64/libkeystore-engine-wifi-hidl.so
-vendor/lib64/libkeystore-wifi-hidl.so
 
 # Listen
 vendor/lib/hw/sound_trigger.primary.mt6785.so
@@ -850,7 +847,6 @@ vendor/lib64/libstagefrighthw.so
 vendor/bin/hw/android.hardware.audio@5.0-service-mediatek
 vendor/bin/hw/android.hardware.sensors@1.0-service-mediatek
 vendor/bin/hw/android.hardware.usb@1.1-service-mediatek
-vendor/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek
 vendor/bin/hw/vendor.mediatek.hardware.dfps@1.0-service
 vendor/bin/hw/vendor.mediatek.hardware.dplanner@2.0-service
 vendor/bin/hw/vendor.mediatek.hardware.gpu@1.0-service
@@ -863,7 +859,6 @@ vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service
 vendor/etc/init/android.hardware.audio@5.0-service-mediatek.rc
 vendor/etc/init/android.hardware.sensors@1.0-service-mediatek.rc
 vendor/etc/init/android.hardware.usb@1.1-service-mediatek.rc
-vendor/etc/init/android.hardware.wifi@1.0-service-lazy-mediatek.rc
 vendor/etc/init/vendor.mediatek.hardware.dfps@1.0-service.rc
 vendor/etc/init/vendor.mediatek.hardware.dplanner@2.0-service.rc
 vendor/etc/init/vendor.mediatek.hardware.gpu@1.0-service.rc
@@ -1274,7 +1269,6 @@ vendor/bin/hw/wpa_supplicant
 vendor/bin/wpa_cli
 vendor/etc/init/hostapd.android.rc
 vendor/lib/libwpa_client.so
-vendor/lib64/libwifi-hal.so
 vendor/lib64/libwpa_client.so
 
 # Xiaomi
