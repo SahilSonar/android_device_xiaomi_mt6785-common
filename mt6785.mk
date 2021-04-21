@@ -268,6 +268,11 @@ PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-service
 
 # WiFi
+PRODUCT_PACKAGES += \
+    android.hardware.wifi@1.0-service-lazy \
+    libkeystore-engine-wifi-hidl \
+    libkeystore-wifi-hidl
+
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     $(COMMON_PATH)/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant.conf \
